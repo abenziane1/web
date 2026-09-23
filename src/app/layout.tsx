@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   applicationName: siteConfig.name,
   formatDetection: { telephone: false },
   ...(analyticsConfig.gscVerification ? { verification: { google: analyticsConfig.gscVerification } } : {}),
+  ...(analyticsConfig.adsenseClient ? { other: { "google-adsense-account": analyticsConfig.adsenseClient } } : {}),
 };
 
 export const viewport: Viewport = {
