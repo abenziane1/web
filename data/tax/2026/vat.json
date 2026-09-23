@@ -1,14 +1,17 @@
 {
-  "verified": false,
-  "sources": [],
+  "verified": true,
+  "sources": [
+    { "title": "AEAT: Tipos impositivos de IVA", "url": "https://sede.agenciatributaria.gob.es/Sede/iva/calculo-iva-repercutido-clientes/tipos-impositivos-iva.html" },
+    { "title": "AEAT: Régimen especial del recargo de equivalencia", "url": "https://sede.agenciatributaria.gob.es/Sede/iva/regimenes-tributacion-iva/regimen-especial-recargo-equivalencia/que-consiste-regimen-especial-recargo-equivalencia.html" }
+  ],
   "rates": [
-    { "id": "general", "label": "Tipo general", "value": null, "verified": false, "source": null },
-    { "id": "reducido", "label": "Tipo reducido", "value": null, "verified": false, "source": null },
-    { "id": "superreducido", "label": "Tipo superreducido", "value": null, "verified": false, "source": null }
+    { "id": "general", "label": "Tipo general", "value": 21, "verified": true, "source": { "title": "AEAT: Tipos impositivos de IVA", "url": "https://sede.agenciatributaria.gob.es/Sede/iva/calculo-iva-repercutido-clientes/tipos-impositivos-iva.html" } },
+    { "id": "reducido", "label": "Tipo reducido", "value": 10, "verified": true, "source": { "title": "AEAT: Tipos impositivos de IVA", "url": "https://sede.agenciatributaria.gob.es/Sede/iva/calculo-iva-repercutido-clientes/tipos-impositivos-iva.html" } },
+    { "id": "superreducido", "label": "Tipo superreducido", "value": 4, "verified": true, "source": { "title": "AEAT: Tipos impositivos de IVA", "url": "https://sede.agenciatributaria.gob.es/Sede/iva/calculo-iva-repercutido-clientes/tipos-impositivos-iva.html" } }
   ],
   "equivalenceSurcharge": [
-    { "id": "re-general", "label": "Recargo sobre tipo general", "value": null, "verified": false, "source": null },
-    { "id": "re-reducido", "label": "Recargo sobre tipo reducido", "value": null, "verified": false, "source": null },
-    { "id": "re-superreducido", "label": "Recargo sobre tipo superreducido", "value": null, "verified": false, "source": null }
+    { "id": "re-general", "label": "Recargo sobre tipo general", "value": 5.2, "verified": true, "source": { "title": "AEAT: Régimen especial del recargo de equivalencia", "url": "https://sede.agenciatributaria.gob.es/Sede/iva/regimenes-tributacion-iva/regimen-especial-recargo-equivalencia/que-consiste-regimen-especial-recargo-equivalencia.html" } },
+    { "id": "re-reducido", "label": "Recargo sobre tipo reducido", "value": 1.4, "verified": true, "source": { "title": "AEAT: Régimen especial del recargo de equivalencia", "url": "https://sede.agenciatributaria.gob.es/Sede/iva/regimenes-tributacion-iva/regimen-especial-recargo-equivalencia/que-consiste-regimen-especial-recargo-equivalencia.html" } },
+    { "id": "re-superreducido", "label": "Recargo sobre tipo superreducido", "value": 0.5, "verified": true, "source": { "title": "AEAT: Régimen especial del recargo de equivalencia", "url": "https://sede.agenciatributaria.gob.es/Sede/iva/regimenes-tributacion-iva/regimen-especial-recargo-equivalencia/que-consiste-regimen-especial-recargo-equivalencia.html" } }
   ]
 }

@@ -1,12 +1,163 @@
 {
-  "verified": false,
-  "sources": [],
+  "verified": true,
+  "sources": [
+    {
+      "title": "AEAT: Calendario del contribuyente 2026",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html"
+    }
+  ],
   "deadlines": [
-    { "id": "t1", "models": ["303", "130", "111", "349"], "label": "Declaraciones del primer trimestre", "period": "1T", "start": null, "end": null, "verified": false, "source": null },
-    { "id": "t2", "models": ["303", "130", "111", "349"], "label": "Declaraciones del segundo trimestre", "period": "2T", "start": null, "end": null, "verified": false, "source": null },
-    { "id": "t3", "models": ["303", "130", "111", "349"], "label": "Declaraciones del tercer trimestre", "period": "3T", "start": null, "end": null, "verified": false, "source": null },
-    { "id": "t4", "models": ["303", "130", "111", "349"], "label": "Declaraciones del cuarto trimestre", "period": "4T", "start": null, "end": null, "verified": false, "source": null },
-    { "id": "anual-resumenes", "models": ["390", "190"], "label": "Resúmenes anuales", "period": "Anual", "start": null, "end": null, "verified": false, "source": null },
-    { "id": "renta", "models": ["100"], "label": "Declaración de la renta", "period": "Anual", "start": null, "end": null, "verified": false, "source": null }
+    {
+      "id": "t4-2025-ret",
+      "models": [
+        "111",
+        "115"
+      ],
+      "label": "Retenciones del cuarto trimestre de 2025",
+      "period": "4T 2025",
+      "start": "2026-01-01",
+      "end": "2026-01-20",
+      "verified": true,
+      "source": {
+        "title": "AEAT: Calendario del contribuyente 2026",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html"
+      }
+    },
+    {
+      "id": "t4-2025",
+      "models": [
+        "303",
+        "130",
+        "349",
+        "390"
+      ],
+      "label": "IVA e IRPF del cuarto trimestre de 2025 y resumen anual de IVA",
+      "period": "4T 2025",
+      "start": "2026-01-01",
+      "end": "2026-01-30",
+      "verified": true,
+      "source": {
+        "title": "AEAT: Calendario del contribuyente 2026",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html"
+      }
+    },
+    {
+      "id": "anual-190",
+      "models": [
+        "190"
+      ],
+      "label": "Resumen anual de retenciones de 2025",
+      "period": "Anual",
+      "start": "2026-01-01",
+      "end": "2026-02-02",
+      "verified": true,
+      "source": {
+        "title": "AEAT: Calendario del contribuyente 2026",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html"
+      }
+    },
+    {
+      "id": "t1",
+      "models": [
+        "303",
+        "130",
+        "111",
+        "349"
+      ],
+      "label": "Declaraciones del primer trimestre",
+      "period": "1T 2026",
+      "start": "2026-04-01",
+      "end": "2026-04-20",
+      "verified": true,
+      "source": {
+        "title": "AEAT: Calendario del contribuyente 2026",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html"
+      }
+    },
+    {
+      "id": "renta",
+      "models": [
+        "100"
+      ],
+      "label": "Declaración de la renta 2025",
+      "period": "Anual",
+      "start": "2026-04-08",
+      "end": "2026-06-30",
+      "verified": true,
+      "source": {
+        "title": "AEAT: Calendario del contribuyente 2026",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html"
+      }
+    },
+    {
+      "id": "t2",
+      "models": [
+        "303",
+        "130",
+        "111",
+        "349"
+      ],
+      "label": "Declaraciones del segundo trimestre",
+      "period": "2T 2026",
+      "start": "2026-07-01",
+      "end": "2026-07-20",
+      "verified": true,
+      "source": {
+        "title": "AEAT: Calendario del contribuyente 2026",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html"
+      }
+    },
+    {
+      "id": "t3",
+      "models": [
+        "303",
+        "130",
+        "111",
+        "349"
+      ],
+      "label": "Declaraciones del tercer trimestre",
+      "period": "3T 2026",
+      "start": "2026-10-01",
+      "end": "2026-10-20",
+      "verified": true,
+      "source": {
+        "title": "AEAT: Calendario del contribuyente 2026",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html"
+      }
+    },
+    {
+      "id": "t4-ret",
+      "models": [
+        "111",
+        "115"
+      ],
+      "label": "Retenciones del cuarto trimestre de 2026",
+      "period": "4T 2026",
+      "start": "2027-01-01",
+      "end": "2027-01-20",
+      "verified": true,
+      "source": {
+        "title": "AEAT: Manual de actividades económicas. Pagos fraccionados (plazos del 4.º trimestre)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/folleto-actividades-economicas/3-impuesto-sobre-renta-personas-fisicas/3_7-pagos-fraccionados.html"
+      }
+    },
+    {
+      "id": "t4",
+      "models": [
+        "303",
+        "130",
+        "349",
+        "390"
+      ],
+      "label": "IVA e IRPF del cuarto trimestre de 2026 y resumen anual de IVA (el 30 de enero de 2027 es sábado)",
+      "period": "4T 2026",
+      "start": "2027-01-01",
+      "end": "2027-02-01",
+      "verified": true,
+      "source": {
+        "title": "AEAT: Manual de actividades económicas. Pagos fraccionados (plazos del 4.º trimestre)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/folleto-actividades-economicas/3-impuesto-sobre-renta-personas-fisicas/3_7-pagos-fraccionados.html"
+      }
+    }
   ]
 }

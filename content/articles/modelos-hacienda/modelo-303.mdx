@@ -7,15 +7,15 @@ updated: "2026-09-23"
 reviewedAt: null
 author: "redaccion"
 reviewer: null
-draft: true
+draft: false
 featured: true
 tool: "calculadora-iva-trimestral"
 keywords: ["modelo 303", "modelo 303 explicado", "declaración trimestral iva", "iva trimestral autónomos"]
-sources: ["aeat-sede", "boe-ley-iva"]
+sources: ["aeat-sede", "boe-ley-iva", "boe-lgt", "aeat-calendario-2026"]
 quickAnswer: "El modelo 303 es la autoliquidación periódica del IVA. En él declaras el IVA que has cobrado a tus clientes (repercutido) y restas el IVA deducible de tus compras (soportado). La diferencia es lo que ingresas, compensas o solicitas que te devuelvan."
 steps: [{"title": "Suma el IVA repercutido", "text": "De todas las facturas emitidas en el periodo."}, {"title": "Suma el IVA soportado deducible", "text": "Solo de facturas vinculadas a la actividad y con requisitos formales."}, {"title": "Resta cuotas pendientes", "text": "Si tienes saldo a compensar de periodos anteriores."}, {"title": "Presenta el modelo", "text": "Desde la sede electrónica, dentro de plazo."}]
 commonMistakes: ["Deducir IVA de gastos no afectos a la actividad.", "Deducir IVA de tiques simplificados que no cumplen requisitos.", "Olvidar las operaciones intracomunitarias o de inversión del sujeto pasivo."]
-faq: [{"q": "¿Qué pasa si no presento el 303 a tiempo?", "a": "La presentación fuera de plazo puede conllevar recargos o sanciones. [DATOS PENDIENTES DE VERIFICACIÓN]"}]
+faq: [{"q": "¿Qué pasa si no presento el 303 a tiempo?", "a": "Si lo presentas tarde sin que Hacienda te lo haya requerido, pagas un recargo del 1 % más un 1 % adicional por cada mes completo de retraso, hasta un máximo de 12 meses. A partir de ahí, el recargo es del 15 % más intereses de demora (artículo 27 de la Ley General Tributaria). Si Hacienda te lo requiere antes, puede además imponerte una sanción."}, {"q": "¿Cuándo puedo pedir la devolución del IVA?", "a": "En la declaración del cuarto trimestre, si el resultado del año es a tu favor. Solo quien está inscrito en el registro de devolución mensual (REDEME) puede pedirla cada mes."}]
 related: ["/iva/iva-intracomunitario-servicios-digitales/", "/modelos-hacienda/modelo-349/"]
 ---
 ## Explicación completa
@@ -26,11 +26,17 @@ Cuando emites una factura con IVA, ese IVA no es tuyo: lo recaudas por cuenta de
 - **IVA soportado deducible**: el de tus facturas recibidas que cumplen los requisitos.
 - **Cuotas a compensar**: importes a tu favor de periodos anteriores.
 
-Si el resultado es positivo, se ingresa. Si es negativo, normalmente se compensa en periodos siguientes y, en determinados periodos, puede solicitarse la devolución. <Pendiente /> Periodos en los que se puede pedir devolución y regímenes que no presentan el modelo.
+Si el resultado es positivo, se ingresa. Si es negativo, se compensa en las declaraciones siguientes. La **devolución** solo puede pedirse en la declaración del **último periodo del año** (el cuarto trimestre), salvo que estés inscrito en el registro de devolución mensual (REDEME).
+
+No presentan el modelo 303 por su actividad quienes solo realizan operaciones exentas de IVA (por ejemplo, determinados servicios sanitarios o educativos) ni los comerciantes en [recargo de equivalencia](/iva/recargo-de-equivalencia/).
+
+### Plazos
+
+Del 1 al 20 de abril, julio y octubre, y del 1 al 30 de enero para el cuarto trimestre. Si domicilias el pago, el plazo termina antes. Consulta las fechas exactas en el [calendario fiscal](/calendario-fiscal/).
 
 ## Ejemplo práctico
 
-Un diseñador ha repercutido una cantidad de IVA en sus facturas del trimestre y ha soportado IVA deducible en software y equipos. Resta el segundo del primero y, si tiene cuotas pendientes de trimestres anteriores, también las resta. Puedes simularlo con la <ToolLink slug="calculadora-iva-trimestral">calculadora de IVA trimestral</ToolLink>.
+Un diseñador factura 10.000 € en el trimestre y repercute 2.100 € de IVA (21 %). Ha pagado 600 € de IVA deducible en software y equipos. Resultado: 2.100 − 600 = **1.500 € a ingresar**. Si tuviera cuotas a compensar de trimestres anteriores, también las restaría. Puedes simularlo con la <ToolLink slug="calculadora-iva-trimestral">calculadora de IVA trimestral</ToolLink>.
 
 <AdSlot position="mid-article" />
 

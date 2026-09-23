@@ -1,10 +1,137 @@
 {
-  "verified": false,
-  "sources": [],
-  "contributionRate": { "label": "Tipo de cotización total sobre la base", "value": null, "verified": false, "source": null },
-  "genericExpenseDeduction": { "label": "Deducción por gastos genéricos sobre rendimientos", "value": null, "verified": false, "source": null },
-  "brackets": [],
-  "flatRate": { "label": "Tarifa plana", "monthlyAmount": null, "months": null, "verified": false, "source": null },
+  "verified": true,
+  "sources": [
+    {
+      "title": "BOE: Orden PJC/297/2026, art. 18 (cotización de autónomos 2026)",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7296"
+    },
+    {
+      "title": "Seguridad Social: Guía práctica de trabajo autónomo",
+      "url": "https://portal.seg-social.gob.es/wps/portal/importass/importass/Colectivos/Trabajo+Autonomo/guia"
+    }
+  ],
+  "contributionRate": {
+    "label": "Tipo de cotización total sobre la base",
+    "value": 31.5,
+    "verified": true,
+    "source": {
+      "title": "BOE: Orden PJC/297/2026, art. 18 (cotización de autónomos 2026)",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7296"
+    },
+    "_detail": "28,30 % contingencias comunes + 1,30 % contingencias profesionales + 0,90 % cese de actividad + 0,10 % formación profesional + 0,90 % MEI"
+  },
+  "genericExpenseDeduction": {
+    "label": "Deducción por gastos genéricos sobre rendimientos",
+    "value": 7,
+    "verified": true,
+    "source": {
+      "title": "Seguridad Social: Guía práctica de trabajo autónomo",
+      "url": "https://portal.seg-social.gob.es/wps/portal/importass/importass/Colectivos/Trabajo+Autonomo/guia"
+    },
+    "_detail": "3 % para socios de sociedades de capital y socios trabajadores de sociedades laborales"
+  },
+  "brackets": [
+    {
+      "from": null,
+      "to": 670,
+      "minBase": 653.59,
+      "maxBase": 718.94
+    },
+    {
+      "from": 670.01,
+      "to": 900,
+      "minBase": 718.95,
+      "maxBase": 900.0
+    },
+    {
+      "from": 900.01,
+      "to": 1166.69,
+      "minBase": 849.67,
+      "maxBase": 1166.7
+    },
+    {
+      "from": 1166.7,
+      "to": 1300,
+      "minBase": 950.98,
+      "maxBase": 1300.0
+    },
+    {
+      "from": 1300.01,
+      "to": 1500,
+      "minBase": 960.78,
+      "maxBase": 1500.0
+    },
+    {
+      "from": 1500.01,
+      "to": 1700,
+      "minBase": 960.78,
+      "maxBase": 1700.0
+    },
+    {
+      "from": 1700.01,
+      "to": 1850,
+      "minBase": 1143.79,
+      "maxBase": 1850.0
+    },
+    {
+      "from": 1850.01,
+      "to": 2030,
+      "minBase": 1209.15,
+      "maxBase": 2030.0
+    },
+    {
+      "from": 2030.01,
+      "to": 2330,
+      "minBase": 1274.51,
+      "maxBase": 2330.0
+    },
+    {
+      "from": 2330.01,
+      "to": 2760,
+      "minBase": 1356.21,
+      "maxBase": 2760.0
+    },
+    {
+      "from": 2760.01,
+      "to": 3190,
+      "minBase": 1437.91,
+      "maxBase": 3190.0
+    },
+    {
+      "from": 3190.01,
+      "to": 3620,
+      "minBase": 1519.61,
+      "maxBase": 3620.0
+    },
+    {
+      "from": 3620.01,
+      "to": 4050,
+      "minBase": 1601.31,
+      "maxBase": 4050.0
+    },
+    {
+      "from": 4050.01,
+      "to": 6000,
+      "minBase": 1732.03,
+      "maxBase": 5101.2
+    },
+    {
+      "from": 6000.01,
+      "to": null,
+      "minBase": 1928.1,
+      "maxBase": 5101.2
+    }
+  ],
+  "flatRate": {
+    "label": "Tarifa plana",
+    "monthlyAmount": 80,
+    "months": 12,
+    "verified": true,
+    "source": {
+      "title": "Seguridad Social: Guía práctica de trabajo autónomo",
+      "url": "https://portal.seg-social.gob.es/wps/portal/importass/importass/Colectivos/Trabajo+Autonomo/guia"
+    }
+  },
   "_schema": {
     "brackets": "Array de { \"from\": number|null, \"to\": number|null, \"minBase\": number, \"maxBase\": number } con rendimientos netos MENSUALES en euros. from/to null significa sin límite.",
     "value": "Porcentajes expresados como número (p. ej. 12.5 para 12,5 %)."

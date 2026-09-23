@@ -1,14 +1,17 @@
 {
-  "verified": false,
-  "sources": [],
+  "verified": true,
+  "sources": [
+    { "title": "AEAT: Manual de actividades económicas. Retenciones", "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/folleto-actividades-economicas/7-otras-obligaciones-fiscales-retenciones.html" },
+    { "title": "AEAT: Manual de actividades económicas. Pagos fraccionados", "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/folleto-actividades-economicas/3-impuesto-sobre-renta-personas-fisicas/3_7-pagos-fraccionados.html" }
+  ],
   "withholdingRates": [
-    { "id": "profesional-general", "label": "Actividad profesional (tipo general)", "value": null, "verified": false, "source": null },
-    { "id": "profesional-inicio", "label": "Actividad profesional (inicio de actividad)", "value": null, "verified": false, "source": null }
+    { "id": "profesional-general", "label": "Actividad profesional (tipo general)", "value": 15, "verified": true, "source": { "title": "AEAT: Manual de actividades económicas. Retenciones", "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/folleto-actividades-economicas/7-otras-obligaciones-fiscales-retenciones.html" } },
+    { "id": "profesional-inicio", "label": "Actividad profesional (inicio de actividad)", "value": 7, "verified": true, "source": { "title": "AEAT: Manual de actividades económicas. Retenciones", "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/folleto-actividades-economicas/7-otras-obligaciones-fiscales-retenciones.html" } }
   ],
   "fractionalPayment": {
     "label": "Porcentaje pago fraccionado (modelo 130)",
-    "value": null,
-    "verified": false,
-    "source": null
+    "value": 20,
+    "verified": true,
+    "source": { "title": "AEAT: Manual de actividades económicas. Pagos fraccionados", "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/folleto-actividades-economicas/3-impuesto-sobre-renta-personas-fisicas/3_7-pagos-fraccionados.html" }
   }
 }

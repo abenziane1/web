@@ -7,6 +7,9 @@ import { TaxCalendar } from "@/components/tax/TaxCalendar";
 import { OfficialSources } from "@/components/article/OfficialSources";
 import { Disclaimer } from "@/components/ui/Disclaimer";
 
+/** Se regenera cada día para que las próximas obligaciones fiscales estén al día. */
+export const revalidate = 86400;
+
 const c = categoryMap["calendario-fiscal"];
 const year = siteConfig.defaultTaxYear;
 

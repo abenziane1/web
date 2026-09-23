@@ -7,15 +7,15 @@ updated: "2026-09-23"
 reviewedAt: null
 author: "redaccion"
 reviewer: null
-draft: true
+draft: false
 featured: true
 tool: "calculadora-irpf-factura"
 keywords: ["retención irpf factura", "retención autónomo", "irpf factura autónomo"]
-sources: ["aeat-sede", "boe-reglamento-irpf"]
-quickAnswer: "Las facturas de actividades profesionales emitidas a empresas o autónomos suelen llevar retención de IRPF, que se calcula sobre la base imponible. Los porcentajes vigentes están pendientes de verificar."
+sources: ["aeat-retenciones", "boe-reglamento-irpf", "boe-ley-irpf"]
+quickAnswer: "Las facturas de actividades profesionales emitidas a empresas o autónomos llevan retención de IRPF: el 15 % con carácter general y el 7 % durante el año de inicio y los dos siguientes. Se calcula sobre la base imponible, no sobre el total con IVA."
 steps: []
 commonMistakes: ["Calcular la retención sobre el total con IVA.", "Aplicar retención a clientes particulares.", "Aplicar retención en actividades empresariales que no la llevan."]
-faq: []
+faq: [{"q": "¿Tengo que aplicar retención a un cliente particular?", "a": "No. La retención solo se aplica cuando el cliente es una empresa o un profesional que actúa como tal. A los particulares no se les retiene."}, {"q": "¿Cómo me acojo al 7 %?", "a": "Comunicando por escrito a tu cliente que inicias actividad y que cumples los requisitos. No hay que presentar nada a Hacienda para aplicarlo."}]
 related: ["/modelos-hacienda/modelo-130/", "/modelos-hacienda/modelo-111/"]
 ---
 ## Explicación completa
@@ -25,11 +25,16 @@ La retención es un **adelanto de tu IRPF** que tu cliente descuenta al pagarte 
 - la actividad es de tipo **profesional** (no todas las actividades la llevan), y
 - el cliente es una **empresa o un autónomo** (a particulares no se les aplica retención).
 
-<Pendiente /> Porcentaje general y reducido para nuevos profesionales, y actividades con porcentajes específicos.
+### Qué porcentaje aplicar
+
+- **15 %**: es el tipo general para las actividades profesionales.
+- **7 %**: para quien inicia una actividad profesional, durante el año de inicio y los dos siguientes, siempre que no haya ejercido ninguna actividad profesional en el año anterior. Hay que comunicárselo por escrito al cliente. El 7 % también se aplica a algunas actividades concretas, como recaudadores municipales o mediadores de seguros.
+
+La retención que te practican cuenta como pago a cuenta de tu IRPF: se descuenta de lo que tengas que pagar en la declaración de la renta. Además, si en el año anterior al menos el 70 % de tus ingresos profesionales llevaron retención, no tienes que presentar el [modelo 130](/modelos-hacienda/modelo-130/).
 
 ## Ejemplo práctico
 
-Un traductor factura a una editorial. Calcula el IVA sobre la base, calcula la retención también sobre la base y resta la retención del total. Puedes comprobarlo con la <ToolLink slug="calculadora-irpf-factura">calculadora de factura con IRPF</ToolLink>.
+Un traductor factura 1.000 € a una editorial. Añade el 21 % de IVA (210 €) y resta la retención del 15 % (150 €), calculada también sobre la base. La factura suma 1.060 €, que es lo que cobrará. Puedes comprobarlo con la <ToolLink slug="calculadora-irpf-factura">calculadora de factura con IRPF</ToolLink>.
 
 ## Tabla resumen
 
@@ -38,3 +43,5 @@ Un traductor factura a una editorial. Calcula el IVA sobre la base, calcula la r
 | IVA | Base imponible |
 | Retención IRPF | Base imponible |
 | Importe a cobrar | Base + IVA − retención |
+| Retención general | 15 % |
+| Retención de inicio de actividad | 7 % (año de inicio y dos siguientes) |

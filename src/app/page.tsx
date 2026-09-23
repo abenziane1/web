@@ -14,6 +14,9 @@ import { Icon } from "@/components/ui/Icon";
 import type { IconName } from "@/config/categories";
 import { formatDate } from "@/lib/format";
 
+/** Se regenera cada día para que las próximas obligaciones fiscales estén al día. */
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   ...buildMetadata({ title: `${siteConfig.name}: ${siteConfig.tagline}`, description: siteConfig.description, path: "/" }),
   title: { absolute: `${siteConfig.name}: ${siteConfig.tagline}` },
