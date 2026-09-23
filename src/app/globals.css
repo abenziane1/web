@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/*
+ * Los colores de marca se inyectan desde src/config/site.ts como variables
+ * CSS en <html> (--brand-ink, etc.). Aquí solo se mapean a tokens de Tailwind.
+ */
+@theme inline {
+  --color-ink: var(--brand-ink);
+  --color-ink-soft: var(--brand-ink-soft);
+  --color-accent: var(--brand-accent);
+  --color-pending: var(--brand-pending);
+  --color-surface: var(--brand-surface);
+  --color-line: var(--brand-line);
+  --color-text: #1B2430;
+  --color-muted: #5A6675;
+  --font-sans: var(--font-public-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-white text-text antialiased;
+    font-feature-settings: "kern", "liga";
+  }
+  :focus-visible {
+    outline: 3px solid var(--brand-ink-soft);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+  }
+  /* Filas de liquidación: concepto ....... importe */
+  .ledger-row {
+    @apply flex items-baseline gap-2 py-1.5;
+  }
+  .ledger-row .leader {
+    @apply flex-1 border-b border-dotted border-line translate-y-[-4px];
+  }
+  .ledger-total {
+    border-bottom: 3px double var(--brand-ink);
+  }
+  .field-input {
+    @apply block w-full rounded-md border border-line bg-white px-3 py-2.5 text-lg text-text
+      tabular-nums placeholder:text-muted/60 focus:border-ink-soft focus:outline-none focus:ring-2 focus:ring-ink-soft/25;
+  }
+}
+
+/* Tablas del contenido: legibles y con scroll horizontal propio */
+.prose table {
+  @apply block overflow-x-auto;
+}
+.prose :where(h2, h3) {
+  scroll-margin-top: 5rem;
+}

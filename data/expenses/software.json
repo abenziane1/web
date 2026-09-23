@@ -1,0 +1,97 @@
+[
+  {
+    "slug": "software",
+    "name": "Licencias de software",
+    "category": "software",
+    "synonyms": [
+      "programa",
+      "licencia",
+      "suscripción",
+      "saas",
+      "office",
+      "adobe"
+    ],
+    "summary": "Las herramientas que usas para trabajar suelen ser deducibles si están vinculadas a la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "dominio-hosting",
+    "name": "Dominio y hosting",
+    "category": "software",
+    "synonyms": [
+      "hosting",
+      "servidor",
+      "dominio",
+      "web",
+      "cloud"
+    ],
+    "summary": "Los servicios necesarios para tu web o tus servicios digitales suelen vincularse a la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "programa-facturacion",
+    "name": "Programa de facturación",
+    "category": "software",
+    "synonyms": [
+      "facturación",
+      "contabilidad",
+      "erp"
+    ],
+    "summary": "El software de facturación y contabilidad está directamente ligado a la gestión de la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

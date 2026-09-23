@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "seguro-rc",
+    "name": "Seguro de responsabilidad civil",
+    "category": "seguros",
+    "synonyms": [
+      "responsabilidad civil",
+      "rc profesional"
+    ],
+    "summary": "Los seguros ligados a la actividad suelen ser deducibles.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "seguro-salud",
+    "name": "Seguro de salud",
+    "category": "seguros",
+    "synonyms": [
+      "seguro médico",
+      "sanitario"
+    ],
+    "summary": "Tiene un régimen específico con límites. [DATOS PENDIENTES DE VERIFICACIÓN]",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

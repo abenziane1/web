@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "dietas",
+    "name": "Comidas y dietas",
+    "category": "dietas-viajes",
+    "synonyms": [
+      "comida",
+      "restaurante",
+      "menú",
+      "manutención"
+    ],
+    "summary": "Las comidas pueden deducirse solo en determinados supuestos y con límites. Depende del grado de afectación a la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro.",
+      "Suelen exigirse pago por medios electrónicos y relación con la actividad."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "viajes",
+    "name": "Viajes y alojamiento",
+    "category": "dietas-viajes",
+    "synonyms": [
+      "hotel",
+      "avión",
+      "tren",
+      "desplazamiento"
+    ],
+    "summary": "Los desplazamientos por motivos profesionales pueden deducirse si están justificados.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

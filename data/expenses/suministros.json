@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "luz",
+    "name": "Electricidad",
+    "category": "suministros",
+    "synonyms": [
+      "luz",
+      "electricidad",
+      "energía"
+    ],
+    "summary": "Si trabajas desde casa existen reglas específicas para la parte deducible. Depende del grado de afectación a la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "agua-gas",
+    "name": "Agua y gas",
+    "category": "suministros",
+    "synonyms": [
+      "agua",
+      "gas",
+      "calefacción"
+    ],
+    "summary": "Siguen el mismo criterio que el resto de suministros de la vivienda.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

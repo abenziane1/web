@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "telefono",
+    "name": "Teléfono móvil",
+    "category": "telefono-internet",
+    "synonyms": [
+      "móvil",
+      "smartphone",
+      "línea móvil",
+      "tarifa móvil"
+    ],
+    "summary": "Si la línea se usa para la actividad puede deducirse; con uso mixto, la parte afecta. Depende del grado de afectación a la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "internet",
+    "name": "Conexión a internet",
+    "category": "telefono-internet",
+    "synonyms": [
+      "fibra",
+      "adsl",
+      "wifi",
+      "router"
+    ],
+    "summary": "Si trabajas desde casa, la parte que corresponde a la actividad puede ser deducible. Depende del grado de afectación a la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": "/gastos-deducibles/gastos-deducibles-teletrabajo-autonomo/",
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

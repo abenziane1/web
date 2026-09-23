@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "material-oficina",
+    "name": "Material de oficina",
+    "category": "otros",
+    "synonyms": [
+      "papelería",
+      "tinta",
+      "impresora",
+      "folios"
+    ],
+    "summary": "El material que se consume en la actividad suele ser deducible.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "ropa",
+    "name": "Ropa",
+    "category": "otros",
+    "synonyms": [
+      "vestimenta",
+      "traje",
+      "uniforme"
+    ],
+    "summary": "La ropa de uso cotidiano generalmente no se considera afecta a la actividad; la ropa de trabajo específica puede tener otro tratamiento. [DATOS PENDIENTES DE VERIFICACIÓN]",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

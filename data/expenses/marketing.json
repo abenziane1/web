@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "publicidad",
+    "name": "Publicidad online",
+    "category": "marketing",
+    "synonyms": [
+      "google ads",
+      "anuncios",
+      "facebook ads",
+      "meta ads"
+    ],
+    "summary": "La publicidad para promocionar la actividad suele ser deducible. Si el proveedor es extranjero, revisa el tratamiento del IVA.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": "/iva/iva-intracomunitario-servicios-digitales/",
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

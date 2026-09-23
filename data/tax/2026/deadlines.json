@@ -1,0 +1,12 @@
+{
+  "verified": false,
+  "sources": [],
+  "deadlines": [
+    { "id": "t1", "models": ["303", "130", "111", "349"], "label": "Declaraciones del primer trimestre", "period": "1T", "start": null, "end": null, "verified": false, "source": null },
+    { "id": "t2", "models": ["303", "130", "111", "349"], "label": "Declaraciones del segundo trimestre", "period": "2T", "start": null, "end": null, "verified": false, "source": null },
+    { "id": "t3", "models": ["303", "130", "111", "349"], "label": "Declaraciones del tercer trimestre", "period": "3T", "start": null, "end": null, "verified": false, "source": null },
+    { "id": "t4", "models": ["303", "130", "111", "349"], "label": "Declaraciones del cuarto trimestre", "period": "4T", "start": null, "end": null, "verified": false, "source": null },
+    { "id": "anual-resumenes", "models": ["390", "190"], "label": "Resúmenes anuales", "period": "Anual", "start": null, "end": null, "verified": false, "source": null },
+    { "id": "renta", "models": ["100"], "label": "Declaración de la renta", "period": "Anual", "start": null, "end": null, "verified": false, "source": null }
+  ]
+}

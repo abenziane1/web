@@ -1,0 +1,95 @@
+[
+  {
+    "slug": "gestoria",
+    "name": "Gestoría y asesoría",
+    "category": "servicios-profesionales",
+    "synonyms": [
+      "gestor",
+      "asesor",
+      "contable",
+      "abogado"
+    ],
+    "summary": "Los honorarios de profesionales que te asesoran en la actividad suelen ser deducibles.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "cuota-autonomos",
+    "name": "Cuota de autónomos",
+    "category": "servicios-profesionales",
+    "synonyms": [
+      "seguridad social",
+      "reta",
+      "cuota"
+    ],
+    "summary": "La cuota a la Seguridad Social tiene un tratamiento propio en el IRPF. [DATOS PENDIENTES DE VERIFICACIÓN]",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "seg-social",
+      "boe-ley-irpf"
+    ]
+  },
+  {
+    "slug": "comisiones-bancarias",
+    "name": "Comisiones bancarias",
+    "category": "servicios-profesionales",
+    "synonyms": [
+      "banco",
+      "comisión",
+      "tpv",
+      "pasarela de pago",
+      "stripe",
+      "paypal"
+    ],
+    "summary": "Las comisiones de la cuenta y medios de cobro de la actividad suelen ser deducibles.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "verified": false,
+  "sources": [],
+  "rates": [
+    { "id": "general", "label": "Tipo general", "value": null, "verified": false, "source": null },
+    { "id": "reducido", "label": "Tipo reducido", "value": null, "verified": false, "source": null },
+    { "id": "superreducido", "label": "Tipo superreducido", "value": null, "verified": false, "source": null }
+  ],
+  "equivalenceSurcharge": [
+    { "id": "re-general", "label": "Recargo sobre tipo general", "value": null, "verified": false, "source": null },
+    { "id": "re-reducido", "label": "Recargo sobre tipo reducido", "value": null, "verified": false, "source": null },
+    { "id": "re-superreducido", "label": "Recargo sobre tipo superreducido", "value": null, "verified": false, "source": null }
+  ]
+}

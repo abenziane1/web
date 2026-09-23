@@ -1,0 +1,97 @@
+[
+  {
+    "slug": "ordenador",
+    "name": "Ordenador",
+    "category": "equipos",
+    "synonyms": [
+      "portátil",
+      "pc",
+      "mac",
+      "computadora",
+      "macbook"
+    ],
+    "summary": "Un ordenador afecto a la actividad normalmente se incorpora como inmovilizado y se deduce a través de la amortización.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro.",
+      "Normalmente se amortiza durante su vida útil en lugar de deducirse de una vez."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": "/contabilidad/amortizar-ordenador-autonomo/",
+    "body": "Un ordenador que utilizas para trabajar es un bien de inversión: en lugar de deducirse como gasto en el mes en que lo compras, su coste suele repartirse a lo largo de varios ejercicios mediante la amortización.\n\nEl IVA soportado en la compra y el tratamiento en IRPF tienen reglas propias. [DATOS PENDIENTES DE VERIFICACIÓN: coeficientes de amortización aplicables, reglas de libertad de amortización para elementos de escaso valor y tratamiento del IVA en bienes de uso mixto.]\n\nConserva la factura completa, anota el ordenador en el libro registro de bienes de inversión y documenta su uso en la actividad.",
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "movil-dispositivo",
+    "name": "Teléfono (dispositivo)",
+    "category": "equipos",
+    "synonyms": [
+      "iphone",
+      "terminal",
+      "tablet",
+      "ipad"
+    ],
+    "summary": "El dispositivo sigue un criterio similar al ordenador si está afecto a la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "mobiliario",
+    "name": "Mobiliario de oficina",
+    "category": "equipos",
+    "synonyms": [
+      "silla",
+      "mesa",
+      "escritorio",
+      "estantería"
+    ],
+    "summary": "El mobiliario afecto a la actividad normalmente se amortiza.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

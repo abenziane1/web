@@ -1,0 +1,12 @@
+{
+  "verified": false,
+  "sources": [],
+  "contributionRate": { "label": "Tipo de cotización total sobre la base", "value": null, "verified": false, "source": null },
+  "genericExpenseDeduction": { "label": "Deducción por gastos genéricos sobre rendimientos", "value": null, "verified": false, "source": null },
+  "brackets": [],
+  "flatRate": { "label": "Tarifa plana", "monthlyAmount": null, "months": null, "verified": false, "source": null },
+  "_schema": {
+    "brackets": "Array de { \"from\": number|null, \"to\": number|null, \"minBase\": number, \"maxBase\": number } con rendimientos netos MENSUALES en euros. from/to null significa sin límite.",
+    "value": "Porcentajes expresados como número (p. ej. 12.5 para 12,5 %)."
+  }
+}

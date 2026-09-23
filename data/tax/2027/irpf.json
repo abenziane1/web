@@ -1,0 +1,14 @@
+{
+  "verified": false,
+  "sources": [],
+  "withholdingRates": [
+    { "id": "profesional-general", "label": "Actividad profesional (tipo general)", "value": null, "verified": false, "source": null },
+    { "id": "profesional-inicio", "label": "Actividad profesional (inicio de actividad)", "value": null, "verified": false, "source": null }
+  ],
+  "fractionalPayment": {
+    "label": "Porcentaje pago fraccionado (modelo 130)",
+    "value": null,
+    "verified": false,
+    "source": null
+  }
+}

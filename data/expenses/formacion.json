@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "formacion",
+    "name": "Cursos y formación",
+    "category": "formacion",
+    "synonyms": [
+      "curso",
+      "máster",
+      "congreso",
+      "formación"
+    ],
+    "summary": "La formación relacionada con la actividad suele ser deducible.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "libros",
+    "name": "Libros y suscripciones profesionales",
+    "category": "formacion",
+    "synonyms": [
+      "libro",
+      "revista",
+      "suscripción",
+      "prensa"
+    ],
+    "summary": "Pueden deducirse si están relacionados con la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

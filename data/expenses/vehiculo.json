@@ -1,0 +1,96 @@
+[
+  {
+    "slug": "coche",
+    "name": "Coche",
+    "category": "vehiculo",
+    "synonyms": [
+      "vehículo",
+      "turismo",
+      "automóvil",
+      "renting coche",
+      "leasing"
+    ],
+    "summary": "La deducción del vehículo depende de su uso en la actividad y del tipo de vehículo. Es uno de los gastos que Hacienda revisa con más atención.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro.",
+      "Conviene poder acreditar el uso del vehículo en la actividad."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": "/gastos-deducibles/deducir-coche-autonomo/",
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "gasolina",
+    "name": "Combustible",
+    "category": "vehiculo",
+    "synonyms": [
+      "gasolina",
+      "gasoil",
+      "diésel",
+      "carburante"
+    ],
+    "summary": "Suele seguir el mismo criterio de afectación que el vehículo en el que se usa.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "parking",
+    "name": "Aparcamiento y peajes",
+    "category": "vehiculo",
+    "synonyms": [
+      "parking",
+      "peaje",
+      "autopista"
+    ],
+    "summary": "Pueden deducirse si se producen con motivo de la actividad y están documentados.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]

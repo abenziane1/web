@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "alquiler-local",
+    "name": "Alquiler de local u oficina",
+    "category": "local",
+    "synonyms": [
+      "alquiler",
+      "oficina",
+      "despacho",
+      "coworking"
+    ],
+    "summary": "El alquiler de un local destinado exclusivamente a la actividad suele ser deducible.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro.",
+      "El contrato debe reflejar el uso para la actividad."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": null,
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  },
+  {
+    "slug": "vivienda-habitual",
+    "name": "Parte de la vivienda habitual",
+    "category": "local",
+    "synonyms": [
+      "casa",
+      "piso",
+      "teletrabajo",
+      "home office"
+    ],
+    "summary": "Si trabajas en casa, solo la parte afecta puede computarse y existen reglas específicas. Depende del grado de afectación a la actividad.",
+    "conditions": [
+      "El gasto debe estar vinculado a tu actividad económica.",
+      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe registrarse en tus libros registro."
+    ],
+    "documents": [
+      "Factura completa con tu NIF",
+      "Justificante de pago"
+    ],
+    "irpf": null,
+    "iva": null,
+    "status": "pendiente_verificacion",
+    "article": "/gastos-deducibles/gastos-deducibles-teletrabajo-autonomo/",
+    "body": null,
+    "sources": [
+      "aeat-sede",
+      "boe-ley-irpf",
+      "boe-ley-iva"
+    ]
+  }
+]
