@@ -17,10 +17,10 @@ export const siteConfig = {
   locale: "es_ES",
   language: "es",
   country: "ES",
-  /** Datos de la organización editora. Completar antes de publicar. */
+  /** Datos del titular del sitio web. */
   organization: {
-    legalName: "[PENDIENTE: razón social]",
-    email: "[PENDIENTE: email de contacto]",
+    legalName: "Amin Benzian",
+    email: "info@agency-ia.es",
     sameAs: [] as string[],
   },
   social: {
