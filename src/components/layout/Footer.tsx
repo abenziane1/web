@@ -2,6 +2,8 @@ import Link from "next/link";
 import { footerNav } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
 import { Logo } from "./Logo";
+import { CookieSettingsLink } from "@/components/analytics/CookieSettingsLink";
+import { analyticsConfig } from "@/lib/analytics";
 
 const groups: { title: string; items: { label: string; href: string }[] }[] = [
   { title: "Temas", items: footerNav.temas },
@@ -29,6 +31,11 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              {g.title === "Legal" && analyticsConfig.adsenseClient && (
+                <li>
+                  <CookieSettingsLink className="text-left text-sm text-muted hover:text-ink hover:underline" />
+                </li>
+              )}
             </ul>
           </nav>
         ))}

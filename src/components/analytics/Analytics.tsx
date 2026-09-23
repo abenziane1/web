@@ -5,8 +5,10 @@ import { ConsentBanner } from "./ConsentBanner";
 
 /**
  * Carga GA4 y AdSense solo si hay IDs en las variables de entorno.
- * Usa Google Consent Mode v2 con todo denegado por defecto hasta que el
- * usuario acepta en el banner.
+ * Usa Google Consent Mode v2 con todo denegado por defecto.
+ * Con AdSense activo, el consentimiento lo gestiona la CMP de Google
+ * (Privacidad y mensajes), que se carga con el script de AdSense, y no se
+ * muestra el banner propio para evitar dos avisos.
  */
 export function Analytics() {
   const { gaId, adsenseClient } = analyticsConfig;
@@ -31,12 +33,12 @@ try{var c=localStorage.getItem('consent-v1');if(c==='granted'){gtag('consent','u
         <Script
           id="adsense"
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
-          strategy="lazyOnload"
+          strategy="afterInteractive"
           crossOrigin="anonymous"
         />
       )}
       <ClickTracker />
-      <ConsentBanner />
+      {!adsenseClient && <ConsentBanner />}
     </>
   );
 }
