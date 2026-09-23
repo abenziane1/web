@@ -5,9 +5,9 @@ import type { AdPosition } from "@/components/ads/AdSlot";
  * Déjalos vacíos hasta tener IDs reales: los huecos no se muestran.
  */
 export const adSlots: Record<AdPosition, string> = {
-  "after-intro": "",
-  "mid-article": "",
-  "after-calculator": "",
-  "end-article": "",
+  "after-intro": "6934532790",
+  "mid-article": "6934532790",
+  "after-calculator": "6934532790",
+  "end-article": "6934532790",
   sidebar: "",
 };
