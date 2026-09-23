@@ -19,7 +19,7 @@ export const siteConfig = {
   country: "ES",
   /** Datos del titular del sitio web. */
   organization: {
-    legalName: "Amin Benzian",
+    legalName: "Amin Benziane",
     email: "info@agency-ia.es",
     sameAs: [] as string[],
   },
