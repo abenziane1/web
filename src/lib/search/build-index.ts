@@ -2,7 +2,8 @@ import "server-only";
 import { categories } from "@/config/categories";
 import { getAllArticles } from "@/lib/content/articles";
 import { tools } from "@data/tools";
-import { taxModels } from "@data/tax-models";
+import { getPublishedTaxModels } from "@/lib/content/articles";
+const taxModels = getPublishedTaxModels();
 import { expenses } from "@data/expenses";
 import type { SearchItem } from "./types";
 

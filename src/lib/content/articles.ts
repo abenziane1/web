@@ -5,6 +5,7 @@ import matter from "gray-matter";
 import { cache } from "react";
 import { isCategorySlug, type CategorySlug } from "@/config/categories";
 import { siteConfig } from "@/config/site";
+import { taxModels } from "@data/tax-models";
 import { slugify } from "./slugify";
 import type { Article, ArticleFrontmatter, Heading } from "./types";
 
@@ -79,7 +80,9 @@ export const getAllArticles = cache((): Article[] => {
     const full = path.join(ARTICLES_DIR, dir);
     for (const file of fs.readdirSync(full)) {
       if (!/\.mdx?$/.test(file)) continue;
-      articles.push(parseFile(path.join(full, file), dir));
+      const a = parseFile(path.join(full, file), dir);
+      if (a.draft && !siteConfig.publishDrafts) continue;
+      articles.push(a);
     }
   }
   const seen = new Set<string>();
@@ -120,4 +123,32 @@ export function getRelatedArticles(article: Article, limit = 4): Article[] {
 /** ¿Debe indexarse? Los borradores con datos pendientes no se indexan salvo configuración. */
 export function isIndexable(article: Pick<Article, "draft">): boolean {
   return !article.draft || siteConfig.indexDrafts;
+}
+
+/**
+ * URLs de artículos en borrador que no se publican. Sirve para quitar
+ * enlaces escritos a mano (home, fichas de gastos) que apuntarían a un 404.
+ */
+export const getHiddenDraftHrefs = cache((): Set<string> => {
+  const hidden = new Set<string>();
+  if (siteConfig.publishDrafts || !fs.existsSync(ARTICLES_DIR)) return hidden;
+  for (const dir of fs.readdirSync(ARTICLES_DIR)) {
+    if (!isCategorySlug(dir)) continue;
+    const full = path.join(ARTICLES_DIR, dir);
+    for (const file of fs.readdirSync(full)) {
+      if (!/\.mdx?$/.test(file)) continue;
+      const a = parseFile(path.join(full, file), dir);
+      if (a.draft) hidden.add(a.href);
+    }
+  }
+  return hidden;
+});
+
+export function isPublishedHref(href: string): boolean {
+  return !getHiddenDraftHrefs().has(href);
+}
+
+/** Modelos de Hacienda sin enlace a guías que todavía son borrador. */
+export function getPublishedTaxModels(): typeof taxModels {
+  return taxModels.map((m) => (m.href && !isPublishedHref(m.href) ? { ...m, href: null } : m));
 }

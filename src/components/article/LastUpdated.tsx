@@ -10,7 +10,6 @@ export function LastUpdated({ updated, reviewedAt }: { updated: string; reviewed
       ) : (
         <>
           Última actualización: <time dateTime={updated}>{formatDate(updated)}</time>
-          <span className="ml-2 font-medium text-pending">Pendiente de revisión profesional</span>
         </>
       )}
     </p>

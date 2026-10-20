@@ -39,18 +39,18 @@
       "traje",
       "uniforme"
     ],
-    "summary": "La ropa de uso cotidiano generalmente no se considera afecta a la actividad; la ropa de trabajo específica puede tener otro tratamiento. [DATOS PENDIENTES DE VERIFICACIÓN]",
+    "summary": "La ropa de uso cotidiano no es deducible, aunque la uses para trabajar, porque también sirve para tu vida privada. Sí suelen serlo los uniformes, la ropa con el logotipo del negocio y la ropa de protección o específica de la actividad.",
     "conditions": [
-      "El gasto debe estar vinculado a tu actividad económica.",
-      "Debe estar justificado con factura completa a tu nombre.",
+      "Debe ser ropa de uso exclusivo en la actividad (uniforme, EPI, vestuario con logotipo o propio del oficio).",
+      "Debe estar justificada con factura completa a tu nombre.",
       "Debe registrarse en tus libros registro."
     ],
     "documents": [
       "Factura completa con tu NIF",
       "Justificante de pago"
     ],
-    "irpf": null,
-    "iva": null,
+    "irpf": "Deducible solo la ropa de trabajo específica; la ropa de calle, no.",
+    "iva": "El IVA soportado de la ropa de trabajo específica es deducible; el de la ropa de uso personal, no.",
     "status": "pendiente_verificacion",
     "article": null,
     "body": null,

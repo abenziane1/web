@@ -3,8 +3,9 @@ import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { problemGroups } from "@/config/categories";
 import { tools } from "@data/tools";
-import { taxModels } from "@data/tax-models";
-import { getAllArticles, getFeaturedArticles } from "@/lib/content/articles";
+import { getPublishedTaxModels } from "@/lib/content/articles";
+const taxModels = getPublishedTaxModels();
+import { getAllArticles, getFeaturedArticles, isPublishedHref } from "@/lib/content/articles";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { SearchBox } from "@/components/search/SearchBox";
 import { CalculatorCard } from "@/components/calculators/CalculatorCard";
@@ -123,7 +124,10 @@ export default function HomePage() {
       <section aria-labelledby="resolver" className="container-page mt-20">
         <SectionTitle id="resolver">Qué necesitas resolver</SectionTitle>
         <div className="mt-6 grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
-          {problemGroups.map((g) => (
+          {problemGroups
+            .map((g) => ({ ...g, links: g.links.filter((l) => isPublishedHref(l.href)) }))
+            .filter((g) => g.links.length > 0)
+            .map((g) => (
             <div key={g.title}>
               <h3 className="border-b border-ink pb-2 font-semibold text-ink">
                 <Link href={`/${g.category}/`} className="hover:underline">

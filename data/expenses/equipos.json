@@ -21,11 +21,11 @@
       "Factura completa con tu NIF",
       "Justificante de pago"
     ],
-    "irpf": null,
-    "iva": null,
-    "status": "pendiente_verificacion",
+    "irpf": "Se deduce mediante amortización. En estimación directa simplificada, hasta el 26 % anual (máximo 10 años); en directa normal, hasta el 25 % (máximo 8 años). Si cuesta 300 € o menos, puedes amortizarlo de una vez (libertad de amortización, con un límite de 25.000 € al año).",
+    "iva": "El IVA soportado es deducible en el modelo 303 en la proporción en que lo uses para la actividad.",
+    "status": "verificado",
     "article": "/contabilidad/amortizar-ordenador-autonomo/",
-    "body": "Un ordenador que utilizas para trabajar es un bien de inversión: en lugar de deducirse como gasto en el mes en que lo compras, su coste suele repartirse a lo largo de varios ejercicios mediante la amortización.\n\nEl IVA soportado en la compra y el tratamiento en IRPF tienen reglas propias. [DATOS PENDIENTES DE VERIFICACIÓN: coeficientes de amortización aplicables, reglas de libertad de amortización para elementos de escaso valor y tratamiento del IVA en bienes de uso mixto.]\n\nConserva la factura completa, anota el ordenador en el libro registro de bienes de inversión y documenta su uso en la actividad.",
+    "body": "Un ordenador que utilizas para trabajar es un bien de inversión: en lugar de deducirse como gasto en el mes en que lo compras, su coste se reparte a lo largo de varios ejercicios mediante la amortización.\n\nEn estimación directa simplificada se aplica la tabla simplificada: los equipos para tratamiento de la información se amortizan con un coeficiente lineal máximo del 26 % anual y en un periodo máximo de 10 años. En estimación directa normal, la tabla general fija un máximo del 25 % y 8 años.\n\nSi el ordenador es nuevo y su valor unitario no supera los 300 €, puedes aplicar libertad de amortización y deducirlo entero en el año de compra, hasta un límite de 25.000 € por periodo impositivo.\n\n**Ejemplo:** compras un portátil de 1.200 € (sin IVA) en enero y estás en estimación directa simplificada. Con el coeficiente máximo del 26 %, cada año deduces 312 € hasta completar los 1.200 € (312 + 312 + 312 + 264).\n\nEl IVA soportado (252 € en el ejemplo, al 21 %) se deduce en el modelo 303 del trimestre de compra, en la proporción en que uses el ordenador para la actividad.\n\nConserva la factura completa, anota el ordenador en el libro registro de bienes de inversión y documenta su uso en la actividad.",
     "sources": [
       "aeat-sede",
       "boe-ley-irpf",

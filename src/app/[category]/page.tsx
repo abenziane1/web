@@ -6,7 +6,8 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { CategoryListing, paginate } from "@/components/category/CategoryListing";
 import { TaxModelCard } from "@/components/tax/TaxModelCard";
-import { taxModels } from "@data/tax-models";
+import { getPublishedTaxModels } from "@/lib/content/articles";
+const taxModels = getPublishedTaxModels();
 import { Disclaimer } from "@/components/ui/Disclaimer";
 
 export const dynamicParams = false;

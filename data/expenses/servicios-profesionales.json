@@ -39,19 +39,18 @@
       "reta",
       "cuota"
     ],
-    "summary": "La cuota a la Seguridad Social tiene un tratamiento propio en el IRPF. [DATOS PENDIENTES DE VERIFICACIÓN]",
+    "summary": "La cuota que pagas a la Seguridad Social como autónomo (RETA) es un gasto deducible al 100 % en el IRPF. No lleva IVA, por lo que no aparece en el modelo 303.",
     "conditions": [
-      "El gasto debe estar vinculado a tu actividad económica.",
-      "Debe estar justificado con factura completa a tu nombre.",
-      "Debe registrarse en tus libros registro."
+      "Se deduce la cuota efectivamente pagada en el año.",
+      "Incluye la cuota del titular; la del autónomo colaborador tiene reglas propias.",
+      "Se anota como gasto de Seguridad Social a cargo del titular en el libro de gastos."
     ],
     "documents": [
-      "Factura completa con tu NIF",
-      "Justificante de pago"
+      "Recibos de la cuota o certificado anual de cotizaciones de la Seguridad Social"
     ],
-    "irpf": null,
-    "iva": null,
-    "status": "pendiente_verificacion",
+    "irpf": "Deducible al 100 % como gasto de la actividad.",
+    "iva": "No lleva IVA.",
+    "status": "verificado",
     "article": null,
     "body": null,
     "sources": [

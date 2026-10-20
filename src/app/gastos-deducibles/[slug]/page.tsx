@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getArticle, getArticlesByCategory, isIndexable } from "@/lib/content/articles";
+import { getArticle, getArticlesByCategory, isIndexable, isPublishedHref } from "@/lib/content/articles";
 import { expenseMap, expensesWithPage, expenseCategories } from "@data/expenses";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ArticleLayout } from "@/components/article/ArticleLayout";
@@ -90,7 +90,7 @@ export default async function ExpenseOrArticlePage({ params }: Props) {
             ))}
           </ul>
         </div>
-        {e.article && (
+        {e.article && isPublishedHref(e.article) && (
           <p className="mt-8">
             <Link href={e.article} className="font-medium text-ink-soft underline underline-offset-4">
               Leer la guía completa

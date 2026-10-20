@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useDeferredValue, useId, useMemo, useState } from "react";
 import { normalize } from "@/lib/content/slugify";
-import { Pending } from "@/components/ui/Pending";
 import { useCalculatorTracking } from "./primitives";
 import type { CalculatorProps } from "./types";
 import type { Expense } from "@data/expenses";
@@ -88,11 +87,11 @@ export default function ExpenseChecker({ expenses, expenseCategories }: Calculat
                     <dl className="grid gap-2 sm:grid-cols-2">
                       <div className="rounded-md bg-surface p-3">
                         <dt className="font-medium text-ink">IRPF</dt>
-                        <dd className="mt-1">{e.irpf ?? <Pending />}</dd>
+                        <dd className="mt-1">{e.irpf ?? "Depende de las condiciones de uso (ver abajo)."}</dd>
                       </div>
                       <div className="rounded-md bg-surface p-3">
                         <dt className="font-medium text-ink">IVA</dt>
-                        <dd className="mt-1">{e.iva ?? <Pending />}</dd>
+                        <dd className="mt-1">{e.iva ?? "Depende de las condiciones de uso (ver abajo)."}</dd>
                       </div>
                     </dl>
                     <div>

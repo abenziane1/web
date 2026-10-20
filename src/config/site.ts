@@ -43,6 +43,12 @@ export const siteConfig = {
    * verificación) se sirven con noindex y no aparecen en el sitemap.
    */
   indexDrafts: false,
+  /**
+   * Si es false, los borradores (draft: true) NO se publican: no generan
+   * página ni aparecen en listados ni enlaces. Ponlo a true solo en local
+   * para revisarlos (o usa NEXT_PUBLIC_SHOW_DRAFTS=true).
+   */
+  publishDrafts: process.env.NEXT_PUBLIC_SHOW_DRAFTS === "true",
   /** Año fiscal por defecto que usan calculadoras y calendario */
   defaultTaxYear: 2026,
 } as const;

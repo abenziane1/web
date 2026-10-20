@@ -3,6 +3,7 @@ import { siteConfig } from "@/config/site";
 import { getTaxYear, verifiedParams } from "@/lib/tax";
 import { expenses, expenseCategories } from "@data/expenses";
 import type { CalculatorProps } from "@/components/calculators/types";
+import { isPublishedHref } from "@/lib/content/articles";
 
 /** Construye en servidor los datos de una calculadora (solo parámetros verificados). */
 export function getCalculatorProps(slug: string, year = siteConfig.defaultTaxYear): CalculatorProps {
@@ -14,7 +15,7 @@ export function getCalculatorProps(slug: string, year = siteConfig.defaultTaxYea
     vatRates: data ? verifiedParams(data.vat.rates).map(toPreset) : [],
     withholdingRates: data ? verifiedParams(data.irpf.withholdingRates).map(toPreset) : [],
     autonomos: slug === "calculadora-cuota-autonomos" ? (data?.autonomos ?? null) : null,
-    expenses: needsExpenses ? expenses : [],
+    expenses: needsExpenses ? expenses.map((e) => (e.article && !isPublishedHref(e.article) ? { ...e, article: null } : e)) : [],
     expenseCategories: needsExpenses ? expenseCategories : [],
   };
 }

@@ -36,19 +36,20 @@
       "seguro médico",
       "sanitario"
     ],
-    "summary": "Tiene un régimen específico con límites. [DATOS PENDIENTES DE VERIFICACIÓN]",
+    "summary": "En estimación directa puedes deducir en el IRPF las primas del seguro de enfermedad tuyo, de tu cónyuge y de tus hijos menores de 25 años que vivan contigo, con un límite de 500 € por persona y año (1.500 € si tiene una discapacidad reconocida).",
     "conditions": [
-      "El gasto debe estar vinculado a tu actividad económica.",
-      "Debe estar justificado con factura completa a tu nombre.",
-      "Debe registrarse en tus libros registro."
+      "Solo en estimación directa (normal o simplificada); no en módulos.",
+      "Límite de 500 € por persona asegurada y año, o 1.500 € por persona con discapacidad.",
+      "Cubre al titular, su cónyuge y los hijos menores de 25 años que convivan con él.",
+      "Los seguros de vida o de accidentes no entran en este límite."
     ],
     "documents": [
-      "Factura completa con tu NIF",
-      "Justificante de pago"
+      "Póliza en la que figuren las personas aseguradas",
+      "Recibos de las primas pagadas"
     ],
-    "irpf": null,
-    "iva": null,
-    "status": "pendiente_verificacion",
+    "irpf": "Deducible con límite de 500 € por persona y año (1.500 € con discapacidad). Artículo 30.2.5.ª de la Ley del IRPF.",
+    "iva": "Los seguros están exentos de IVA, así que no hay IVA soportado que deducir.",
+    "status": "verificado",
     "article": null,
     "body": null,
     "sources": [
