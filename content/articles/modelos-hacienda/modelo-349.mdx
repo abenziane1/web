@@ -3,35 +3,71 @@ title: "Modelo 349: operaciones intracomunitarias"
 description: "Qué es el modelo 349, quién debe presentarlo y qué operaciones con otros países de la UE incluye."
 slug: "modelo-349"
 published: "2026-09-23"
-updated: "2026-09-23"
+updated: "2026-10-20"
 reviewedAt: null
 author: "redaccion"
 reviewer: null
-draft: true
+draft: false
 featured: false
 tool: null
 keywords: ["modelo 349", "operaciones intracomunitarias", "roi", "declaración recapitulativa"]
-sources: ["aeat-sede", "boe-ley-iva"]
-quickAnswer: "El modelo 349 es la declaración recapitulativa de operaciones intracomunitarias. Lo presentan quienes realizan entregas o adquisiciones de bienes, o prestan o reciben servicios, con empresarios o profesionales de otros Estados de la UE."
-steps: []
-commonMistakes: ["Facturar sin IVA a empresas de la UE sin estar en el ROI.", "No comprobar el NIF-IVA del cliente en VIES."]
-faq: []
+sources: ["aeat-sede", "boe-ley-iva", "aeat-calendario-2026"]
+quickAnswer: "El modelo 349 es la declaración informativa de las operaciones con empresas y profesionales de otros países de la UE: lo que les vendes o facturas y lo que les compras. Se presenta normalmente cada trimestre, en los mismos plazos que el modelo 303, y solo en los periodos en que hayas tenido operaciones intracomunitarias. Para hacerlas necesitas estar en el ROI."
+steps: [{"title": "Date de alta en el ROI", "text": "Con el modelo 036, para que tu NIF-IVA sea válido en el VIES."}, {"title": "Comprueba el NIF-IVA de cada cliente o proveedor", "text": "En el sistema VIES de la Comisión Europea, antes de facturar sin IVA."}, {"title": "Agrupa las operaciones por operador y clave", "text": "Por ejemplo, clave S para servicios prestados e I para servicios recibidos."}, {"title": "Presenta el modelo en plazo", "text": "Trimestralmente, del 1 al 20 de abril, julio y octubre, y hasta el 30 de enero para el cuarto trimestre."}]
+commonMistakes: ["Facturar sin IVA a una empresa de la UE sin estar dado de alta en el ROI.", "No comprobar el NIF-IVA del cliente en el VIES antes de facturar.", "Olvidar declarar las suscripciones de software o publicidad contratadas a proveedores de la UE (clave I).", "Que los importes del 349 no cuadren con lo declarado en el modelo 303 del mismo periodo."]
+faq: [{"q": "¿Es mensual o trimestral?", "a": "Trimestral, salvo que las entregas de bienes y prestaciones de servicios intracomunitarias superen 50.000 € en el trimestre o en cualquiera de los cuatro trimestres anteriores: entonces es mensual."}, {"q": "¿Hay que presentarlo si no he tenido operaciones intracomunitarias?", "a": "No. El modelo 349 solo se presenta en los periodos en los que ha habido operaciones intracomunitarias que declarar."}, {"q": "¿Las ventas a particulares de la UE van en el 349?", "a": "No. El 349 recoge operaciones con empresarios y profesionales identificados con NIF-IVA. Las ventas a particulares de otros países se rigen por otras reglas y, en su caso, por el régimen de ventanilla única (OSS)."}, {"q": "¿Qué es el ROI?", "a": "El Registro de Operadores Intracomunitarios. Darte de alta en él hace que tu NIF aparezca como válido en el VIES y te permite facturar sin IVA español a empresas de la UE."}]
 related: ["/iva/iva-intracomunitario-servicios-digitales/", "/modelos-hacienda/modelo-303/"]
 ---
 ## Explicación completa
 
-Cuando facturas a una empresa de otro país de la UE o compras a proveedores comunitarios, esas operaciones deben declararse en el 349, identificando a cada operador por su NIF-IVA.
+Cuando facturas a una empresa de otro país de la UE o compras a un proveedor comunitario, normalmente la operación no lleva IVA español: se aplica la **inversión del sujeto pasivo** y quien recibe la operación autoliquida el IVA en su país. Para que las administraciones de los distintos países puedan cruzar esa información, cada operador declara sus operaciones intracomunitarias en una declaración informativa. En España es el modelo 349.
 
-Para realizar estas operaciones es necesario estar dado de alta en el **Registro de Operadores Intracomunitarios (ROI)**. <Pendiente /> Periodicidad y umbrales.
+En el 349 no se paga nada: es una declaración **informativa**. Por cada cliente o proveedor indicas su NIF-IVA, su nombre, la **clave de operación** y la base imponible total del periodo.
+
+### Requisito previo: el ROI
+
+Para hacer operaciones intracomunitarias necesitas estar dado de alta en el **Registro de Operadores Intracomunitarios (ROI)**. Se solicita con el modelo 036. Una vez dentro, tu NIF aparece como válido en el **VIES**, el sistema europeo donde cualquiera puede comprobar si un NIF-IVA está activo. Antes de facturar sin IVA a un cliente de la UE, comprueba su NIF en el VIES y guarda la captura.
+
+### Claves de operación más habituales
+
+| Clave | Operación |
+|---|---|
+| S | Servicios que **prestas** a empresas de otros países de la UE |
+| I | Servicios que **recibes** de empresas de otros países de la UE |
+| E | Ventas (entregas) de bienes a clientes de la UE |
+| A | Compras (adquisiciones) de bienes a proveedores de la UE |
+
+Para un autónomo de servicios digitales lo más común es la clave S (facturas a clientes europeos) y la clave I (suscripciones a herramientas o publicidad contratada a empresas europeas, por ejemplo irlandesas).
+
+### Periodicidad y plazos
+
+| Periodicidad | Cuándo se aplica | Plazo |
+|---|---|---|
+| Trimestral | Regla general | Del 1 al 20 de abril, julio y octubre; hasta el 30 de enero el cuarto trimestre |
+| Mensual | Entregas y servicios intracomunitarios de más de 50.000 € en el trimestre o en alguno de los cuatro anteriores | Del 1 al 20 del mes siguiente |
+
+Si en un trimestre no has tenido operaciones intracomunitarias, **no se presenta**. Los plazos coinciden con los del [modelo 303](/modelos-hacienda/modelo-303/) y conviene preparar ambos a la vez, porque las cifras deben cuadrar.
 
 ## Ejemplo práctico
 
-Una desarrolladora factura servicios a una empresa alemana y paga una suscripción de software a un proveedor irlandés. Ambas operaciones aparecen en su 349 con la clave correspondiente.
+Una desarrolladora web autónoma tiene en el segundo trimestre estas operaciones:
+
+- Factura **4.500 €** a una agencia alemana con NIF-IVA válido, sin IVA y con la mención "inversión del sujeto pasivo".
+- Paga **180 €** de una herramienta de diseño facturada desde Irlanda, sin IVA.
+
+En su modelo 349 del segundo trimestre declara dos operadores: la agencia alemana con clave **S** y 4.500 €, y el proveedor irlandés con clave **I** y 180 €. En el 303 del mismo trimestre, los 4.500 € aparecen como operaciones no sujetas por reglas de localización, y los 180 € como servicio recibido con inversión del sujeto pasivo: se declara el IVA devengado (37,80 €) y, en la misma declaración, el mismo importe como IVA deducible, de modo que el efecto es neutro.
+
+<AdSlot position="mid-article" />
 
 ## Tabla resumen
 
-| Operación | Se declara en el 349 |
-|---|---|
-| Servicios prestados a empresas de la UE | Sí |
-| Servicios recibidos de empresas de la UE | Sí |
-| Ventas a particulares de la UE | Revisar régimen aplicable <Pendiente /> |
+| Operación | ¿Va en el 349? | Clave |
+|---|---|---|
+| Servicios prestados a empresas de la UE | Sí | S |
+| Servicios recibidos de empresas de la UE | Sí | I |
+| Ventas de bienes a empresas de la UE | Sí | E |
+| Compras de bienes a empresas de la UE | Sí | A |
+| Ventas a particulares de la UE | No | — |
+| Operaciones con empresas de fuera de la UE | No | — |
+
+Si vendes servicios digitales a empresas o particulares de otros países, la guía de [IVA intracomunitario en servicios digitales](/iva/iva-intracomunitario-servicios-digitales/) explica cómo facturarlos.

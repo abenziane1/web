@@ -3,37 +3,73 @@ title: "IVA intracomunitario en servicios digitales"
 description: "Cómo se aplica el IVA cuando un autónomo español presta o contrata servicios digitales con empresas y particulares de otros países de la UE."
 slug: "iva-intracomunitario-servicios-digitales"
 published: "2026-09-23"
-updated: "2026-09-23"
+updated: "2026-10-20"
 reviewedAt: null
 author: "redaccion"
 reviewer: null
-draft: true
+draft: false
 featured: false
 tool: "calculadora-iva"
 keywords: ["iva intracomunitario servicios digitales", "facturar sin iva ue", "inversión del sujeto pasivo", "oss"]
-sources: ["aeat-sede", "boe-ley-iva"]
-quickAnswer: "Cuando prestas un servicio a una empresa de otro país de la UE registrada a efectos de IVA, normalmente no se repercute IVA español y el cliente aplica la inversión del sujeto pasivo. Si el cliente es un particular, las reglas cambian y puede aplicar el régimen de ventanilla única (OSS)."
-steps: []
-commonMistakes: ["No verificar el NIF-IVA en VIES.", "Facturar sin IVA a particulares de la UE sin revisar las reglas B2C."]
-faq: []
+sources: ["boe-ley-iva", "aeat-sede", "aeat-tipos-iva"]
+quickAnswer: "Si prestas servicios a una empresa o profesional de otro país de la UE con NIF-IVA válido, la factura va sin IVA español, con la mención \"inversión del sujeto pasivo\", y la declaras en los modelos 303 y 349. Si vendes servicios digitales a particulares de otros países de la UE, hasta 10.000 € al año en total puedes aplicar el IVA español; por encima, aplicas el IVA del país del cliente y lo declaras con la ventanilla única (OSS)."
+steps: [{"title": "Identifica si el cliente es empresa o particular", "text": "Pide su NIF-IVA si es empresa y compruébalo en el VIES."}, {"title": "Date de alta en el ROI", "text": "Con el modelo 036, antes de facturar a empresas de la UE."}, {"title": "Factura según el tipo de cliente", "text": "Empresa: sin IVA e inversión del sujeto pasivo. Particular: IVA español o del país del cliente según el umbral."}, {"title": "Declara la operación", "text": "Empresas: 303 y 349. Particulares por encima del umbral: OSS (modelo 369)."}]
+commonMistakes: ["Facturar sin IVA a una empresa de la UE sin comprobar su NIF-IVA en el VIES.", "Facturar sin IVA a un particular de la UE como si fuera empresa.", "No estar dado de alta en el ROI.", "Superar los 10.000 € de ventas digitales a particulares de la UE y seguir aplicando IVA español.", "Olvidar declarar las operaciones en el modelo 349."]
+faq: [{"q": "¿Qué mención pongo en la factura a una empresa de la UE?", "a": "\"Inversión del sujeto pasivo\" y los NIF-IVA de ambas partes. Es obligatorio que aparezca el NIF-IVA del cliente."}, {"q": "¿Y si el cliente es de fuera de la UE?", "a": "Los servicios a empresas de fuera de la UE, en general, no están sujetos al IVA español y no van en el 349. Se declaran en el 303 como operaciones no sujetas."}, {"q": "¿Qué son los servicios prestados por vía electrónica?", "a": "Los que se prestan por internet de forma automatizada y con mínima intervención humana: descargas de software, suscripciones a plataformas, cursos grabados, plantillas digitales, alojamiento web. Una consultoría por videollamada no lo es."}, {"q": "¿Cómo funciona el umbral de 10.000 €?", "a": "Es la suma de las ventas a distancia de bienes y de los servicios de telecomunicaciones, radiodifusión y electrónicos a particulares de todos los demás países de la UE, en el año anterior y en el actual. Mientras no lo superes, puedes aplicar el IVA español."}]
 related: ["/modelos-hacienda/modelo-349/", "/guias/declarar-ingresos-google-adsense/"]
 ---
 ## Explicación completa
 
-La regla clave es **quién es el cliente**:
+La regla clave en el IVA de los servicios a otros países de la UE es **quién es el cliente**: una empresa o profesional, o un particular.
 
-- **Empresa o profesional de la UE (B2B)**: con carácter general la operación se localiza en el país del cliente. Tú emites la factura sin IVA español, indicas la mención correspondiente y el cliente autoliquida el IVA en su país.
-- **Particular de la UE (B2C)**: para servicios prestados por vía electrónica existen reglas de localización específicas y el régimen OSS. <Pendiente /> Umbral aplicable y requisitos.
+### Clientes empresa o profesional (B2B)
 
-Para operar con empresas de la UE necesitas estar en el ROI y declarar las operaciones en el [modelo 349](/modelos-hacienda/modelo-349/).
+Con carácter general, un servicio prestado a un empresario o profesional se entiende realizado **donde está el cliente** (artículo 69 de la Ley del IVA). Por eso, si facturas a una empresa francesa, alemana o irlandesa:
+
+- **No repercutes IVA español**. La factura va sin IVA, con la mención **"inversión del sujeto pasivo"** y los NIF-IVA de los dos.
+- El cliente autoliquida el IVA en su país.
+- Declaras la operación en el [modelo 303](/modelos-hacienda/modelo-303/) como no sujeta por reglas de localización y en el [modelo 349](/modelos-hacienda/modelo-349/) con la clave **S**.
+
+Para que esto funcione necesitas dos cosas:
+
+1. **Estar dado de alta en el ROI** (Registro de Operadores Intracomunitarios), con el modelo 036.
+2. **Comprobar el NIF-IVA del cliente en el VIES** antes de facturar. Si no tiene NIF-IVA válido, debes tratarlo como un particular.
+
+Lo mismo funciona al revés: si **contratas** servicios a empresas de la UE (software, publicidad, hosting), te facturan sin IVA y tú autoliquidas el IVA español en tu 303 (como devengado y, a la vez, como deducible), y lo declaras en el 349 con la clave **I**.
+
+### Clientes particulares (B2C): servicios electrónicos
+
+Para los **servicios prestados por vía electrónica** (descargas, suscripciones, cursos grabados, plantillas, software online), los servicios de telecomunicaciones y los de radiodifusión y televisión, la regla es distinta: se entienden realizados **donde reside el particular**. Hay una simplificación para pequeños vendedores:
+
+| Ventas digitales a particulares del resto de la UE | IVA aplicable | Cómo se declara |
+|---|---|---|
+| Hasta **10.000 €** al año (año anterior y actual) | IVA español (21 %) | Modelo 303 |
+| Más de **10.000 €** | IVA del país de cada cliente | Ventanilla única **OSS** (modelo 369) |
+
+El umbral de 10.000 € es **conjunto para toda la UE**, no por país. Aunque no lo superes, puedes optar por aplicar el IVA de destino desde el principio.
+
+La **ventanilla única (OSS)** te permite declarar y pagar el IVA de todos los países en una sola declaración trimestral en España, sin registrarte en cada país.
+
+Los servicios que **no** son electrónicos (una consultoría, un diseño a medida entregado por correo) prestados a particulares de la UE siguen en general la regla de la sede del prestador: llevan **IVA español**.
 
 ## Ejemplo práctico
 
-Una consultora SEO española factura a una agencia francesa con NIF-IVA válido. Comprueba el NIF en VIES, emite la factura sin IVA con la mención de inversión del sujeto pasivo y la incluye en su 303 y su 349.
+Una consultora SEO española tiene en el trimestre:
+
+1. Una auditoría para una agencia francesa con NIF-IVA válido en el VIES: **2.000 €**. Factura sin IVA, con "inversión del sujeto pasivo". Va en el 303 como no sujeta y en el 349 con la clave S.
+2. Ventas de su curso grabado de SEO a particulares de Italia y Portugal: **900 €** en el trimestre y **6.000 €** en todo el año anterior. No supera los 10.000 €, así que aplica el **21 % de IVA español** y lo declara en su 303.
+3. Una consultoría por videollamada a un particular alemán: **300 €**. No es un servicio electrónico: lleva **IVA español**.
+
+<AdSlot position="mid-article" />
 
 ## Tabla resumen
 
 | Cliente | IVA en la factura | Declaración |
 |---|---|---|
-| Empresa UE con NIF-IVA | Sin IVA español | 303 y 349 |
-| Particular UE | Depende <Pendiente /> | <Pendiente /> |
+| Empresa de la UE con NIF-IVA válido | Sin IVA (inversión del sujeto pasivo) | 303 y 349 (clave S) |
+| Particular de la UE, servicio electrónico, hasta 10.000 € | IVA español | 303 |
+| Particular de la UE, servicio electrónico, más de 10.000 € | IVA del país del cliente | OSS (modelo 369) |
+| Particular de la UE, servicio no electrónico | IVA español, en general | 303 |
+| Empresa de fuera de la UE | Sin IVA, en general | 303 |
+
+Si cobras de plataformas como Google AdSense, la guía sobre cómo [declarar los ingresos de AdSense](/guias/declarar-ingresos-google-adsense/) aplica estas reglas a un caso concreto.

@@ -15,21 +15,12 @@ export interface Person {
 export const people: Person[] = [
   {
     id: "redaccion",
-    name: "Equipo editorial",
-    role: "Redacción",
+    name: "Amin Benziane",
+    role: "Autor y editor",
     credentials: null,
-    bio: "[PENDIENTE: descripción del equipo de redacción]",
+    bio: "Agente digitalizador del programa Kit Digital desde Berga (Barcelona). Trabaja a diario con autónomos y pequeñas empresas en su digitalización y escribe estas guías a partir de la normativa y de las fuentes oficiales de la Agencia Tributaria, la Seguridad Social y el BOE.",
     url: "/sobre-nosotros/",
-    placeholder: true,
-  },
-  {
-    id: "revisor-pendiente",
-    name: "[PENDIENTE: revisor profesional]",
-    role: "Revisión técnica",
-    credentials: "[PENDIENTE: titulación / colegiación verificable]",
-    bio: "[PENDIENTE]",
-    url: null,
-    placeholder: true,
+    placeholder: false,
   },
 ];
 
