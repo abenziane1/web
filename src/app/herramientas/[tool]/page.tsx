@@ -14,6 +14,7 @@ import { FAQ } from "@/components/article/FAQ";
 import { RelatedArticles } from "@/components/article/RelatedArticles";
 import { Disclaimer } from "@/components/ui/Disclaimer";
 import { PendingNotice } from "@/components/ui/Pending";
+import { SectionText } from "@/components/ui/SectionText";
 
 export const dynamicParams = false;
 
@@ -63,6 +64,7 @@ export default async function ToolPage({ params }: Props) {
         <p className="mt-3 text-xs text-muted">Los cálculos se hacen en tu navegador. No guardamos los datos que introduces.</p>
         <AdSlot position="after-calculator" />
         <div className="max-w-3xl">
+          <SectionText sectionKey={`herramienta-${slug}`} className="mt-10" />
           <FAQ items={tool.faq} />
           <RelatedArticles articles={related} />
           <p className="mt-10 text-sm">

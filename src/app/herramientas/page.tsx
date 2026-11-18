@@ -5,6 +5,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { CalculatorCard } from "@/components/calculators/CalculatorCard";
 import { Disclaimer } from "@/components/ui/Disclaimer";
+import { SectionText } from "@/components/ui/SectionText";
 
 const c = categoryMap.herramientas;
 export const metadata: Metadata = buildMetadata({ title: c.title, description: c.description, path: "/herramientas/" });
@@ -19,6 +20,7 @@ export default function ToolsPage() {
             <CalculatorCard key={t.slug} tool={t} />
           ))}
         </div>
+        <SectionText sectionKey="herramientas" className="mt-14" />
         <Disclaimer className="mt-12" />
       </div>
     </>

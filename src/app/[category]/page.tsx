@@ -9,6 +9,7 @@ import { TaxModelCard } from "@/components/tax/TaxModelCard";
 import { getPublishedTaxModels } from "@/lib/content/articles";
 const taxModels = getPublishedTaxModels();
 import { Disclaimer } from "@/components/ui/Disclaimer";
+import { SectionText } from "@/components/ui/SectionText";
 
 export const dynamicParams = false;
 
@@ -49,6 +50,7 @@ export default async function CategoryPage({ params }: Props) {
         )}
         <h2 className="sr-only">Artículos</h2>
         <CategoryListing category={c} articles={items} page={1} totalPages={totalPages} />
+        <SectionText sectionKey={c.slug} className="mt-14" />
         <Disclaimer className="mt-12" />
       </div>
     </>

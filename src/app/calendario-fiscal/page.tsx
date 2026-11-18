@@ -6,6 +6,7 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { TaxCalendar } from "@/components/tax/TaxCalendar";
 import { OfficialSources } from "@/components/article/OfficialSources";
 import { Disclaimer } from "@/components/ui/Disclaimer";
+import { SectionText } from "@/components/ui/SectionText";
 
 /** Se regenera cada día para que las próximas obligaciones fiscales estén al día. */
 export const revalidate = 86400;
@@ -25,6 +26,7 @@ export default function TaxCalendarPage() {
       <PageHeader title={`Calendario fiscal ${year} para autónomos`} intro={c.intro} crumbs={[{ name: c.name, href: "/calendario-fiscal/" }]} />
       <div className="container-page mt-10 max-w-3xl">
         <TaxCalendar year={year} />
+        <SectionText sectionKey="calendario-fiscal" className="mt-12" />
         <OfficialSources sources={["aeat-sede"]} />
         <Disclaimer className="mt-10" />
       </div>
