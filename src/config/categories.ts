@@ -169,6 +169,7 @@ export const problemGroups: { title: string; category: CategorySlug; links: { la
       { label: "Retención de IRPF en la factura", href: "/irpf/retencion-irpf-factura-autonomo/" },
       { label: "Modelo 130: cómo se rellena", href: "/modelos-hacienda/modelo-130/" },
       { label: "Declarar ingresos de Google AdSense", href: "/guias/declarar-ingresos-google-adsense/" },
+      { label: "Cómo se declara el Kit Digital", href: "/guias/kit-digital-como-declararlo/" },
     ],
   },
   {
@@ -177,6 +178,7 @@ export const problemGroups: { title: string; category: CategorySlug; links: { la
     links: [
       { label: "Facturar sin ser autónomo", href: "/facturacion/facturar-sin-ser-autonomo/" },
       { label: "Calculadora de factura con IRPF", href: "/herramientas/calculadora-irpf-factura/" },
+      { label: "Verifactu y factura electrónica: fechas", href: "/facturacion/verifactu-factura-electronica-autonomos/" },
     ],
   },
   {
@@ -209,6 +211,7 @@ export const problemGroups: { title: string; category: CategorySlug; links: { la
       { label: "Alta de autónomo paso a paso", href: "/autonomos/alta-autonomo-paso-a-paso/" },
       { label: "Darse de baja como autónomo", href: "/autonomos/darse-de-baja-autonomo/" },
       { label: "Tarifa plana", href: "/autonomos/tarifa-plana-autonomos/" },
+      { label: "Tu primer trimestre, con ejemplo", href: "/guias/primer-trimestre-autonomo-ejemplo/" },
     ],
   },
 ];
